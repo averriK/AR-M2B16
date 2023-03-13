@@ -1,0 +1,62 @@
+project:
+  type: book
+  output-dir: "_output"
+execute: 
+  eval: true
+  echo: false
+  warning: false
+  include: false
+  freeze: false
+editor: 
+  mode: source
+book:
+  title: "No Title"
+  subtitle: "Barragem de Rejeitos de Jacobina"
+  author: 
+    - Alejandro Verri Kozlowski
+    - SRK Consulting (Argentina)
+  status: "Draft"
+  date: "1/MAR/2023"
+  chapters:
+    - index.qmd
+    - references.qmd
+  downloads: pdf
+  navbar:
+    search: true
+
+bibliography: bib/bibliography.bib
+csl: bib/nature.csl # nature.csl  ieee.csl apa.csl
+
+crossref:
+  fig-title: "Figure"     # (default is "Figure")
+  tbl-title: "Table"     # (default is "Table")
+  title-delim: ":"     # (default is ":")
+  chapters: true
+  
+format:
+  html:
+    #page-layout: article # article,full
+    toc: true
+    number-sections: false
+    grid: 
+      body-width: 1600px
+      sidebar-width: 400px
+      margin-width: 400px
+    toc-location: right
+    self-contained: false
+    echo: false
+    css: css/styles.css
+    theme: materia #default,cerulean,cosmo,cyborg,darkly,flatly,journal,litera,lumen,lux,materia,minty,morph,pulse,quartz,sandstone,simplex,sketchy,slate,solar,spacelab,superhero,united,vapor,yeti,zephyr
+  # docx:
+  #   toc: true
+  #   number-sections: false
+  #   highlight-style: github
+  #   reference-doc: docx/reference-doc.docx
+  #   prefer-html: true
+
+#https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language.yml
+
+colorlinks: true #https://www.njtierney.com/post/2022/04/11/rmd-to-qmd/
+link-citations: true
+fontsize: 12pt
+

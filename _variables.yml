@@ -1,0 +1,13 @@
+REBUILD: FALSE
+# Project-Specific Parameters (PSP)
+SRK: SRK Consultores do Brasil Ltda (SRK)
+CLIENT: Jacobina Mineração e Comércio LTDA. (the Client), subsidiary of Yamana Gold Inc.
+SITE: Jacobina
+LOCATION: Jacobina, Bahia (BA). Republica do Brasil 
+SN_TARGET: 
+URL: 
+REGION: 
+MODEL: 
+CREDITS: SRK Consultores do Brasil Ltda (SRK)
+
+MATHJAX: <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML.js"></script>
