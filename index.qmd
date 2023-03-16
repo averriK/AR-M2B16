@@ -9,21 +9,33 @@
 
 El objeto principal del presente capítulo consiste en revisar los antecedentes sísmicos del sitio del proyecto e identificar la información crítica necesaria para poder efectuar un análisis de la estabilidad sísmica de las presas de relaves B1 y B2 del sitio de Jacobina, de acuerdo al estado actual de la práctica internacional. Los análisis de estabilidad sísmca son una parte fundamental de los estudios de seguridad de la presa (DSI) que está llevando a cabo el equipo de diseño de SRK.
 
-Los objetivos principales del presente estudio son los siguientes
-
-- Revisar el contexto sísmico de la región de Bahía y los antecedentes relacionados con el peligro sísmico del sitio del proyecto, en base a la información disponible a la fecha. 
-
-- Revisar las metodologías de diseño sísmico del estado actual de la práctica 
-
-- Identificar las normas, guías de diseño y recomendaciones nacionales e internacionales relacionadas con el diseño sísmico de instalaciones de depósitos de relaves.
+Entre los antecedentes relevantes, se ha identificado un estudio sismológico detallado de la región de Jacobina (REF), desarrollado durante 2021, motivado por la ocurrencia de eventos sísmicos moderados en el mes de diciembre de 2020, con epicentros en XXXXX.  
 
 
-- Identificar los faltantes de información que podrían existir al momento de la evaluación final de la seguridad de la presa
+El análisis de la sismicidad y la tectónica de la región es un paso clave para poder comprender los mecanismos de generación del movimiento sísmico y poder definir la productividad de diferentes zonas mediante modelos de zonificación sísmica específicos, definidos a unos 500 km a la redonda del sitio de estudio
+
+El estudio presenta estimaciones de los tiempos de recurrencia de eventos moderados de magnitud mayor a M=5.0 con períodos de retorno de 10,000 años. Sin embargo, debido a que las estimaciones se basaron en la geofísica de los bloques geo-tectónicos, y no incluyeron sismicidad histórica, el reporte no presenta estimaciones de los parámetros de recurrencia de Gutemberg-Richter, que se requieren para la definicion de un modelo de zonificación sísmica adecuado para la estimación del peligro sísmico de la región. Los estudios de paleo-sismicidad mostraron evidencias de sismos muy importantes que ocurrieron en diferentes edades de la corteza. No existen registros de sismicidad históirica 
 
 
-## Antecedentes 
+Mediante la correlación de mapas de alineamientos magnéticos con eventos sísmicos más recientes (con magnitudes menores a 3-4),  el estudio de referencia pudo constatar indicios de la posible reactivación de un sistema de fallas donde se encuentra la Serra de Jacobina,. 
 
-## Metodologías
+Si bien el estudio sismogénico hace referencia a xxx que se deben esperar intensidades mayores Los estudios sismológicos de referencia no proporcionaron información sobre Las intensidades sísmicas máximas esperables durante las diferentes etapas del proyecto
+
+<!-- El estudio XXXX habla de XXX para 1: 475, unicamente. -->
+
+Las intensidades sísmicas para diferentes probabilidades anuales de excedencia (períodos de retorno), requeridas para el análisis de estabilidad sísmica de las presas B1 y B2 , se obtienen a partir de un análisis de peligrosidad sísmica del sitio, que combina modelos de zonifiación sísmica y productividad, y modelos de estimación del movimiento sísmico. El reporte de referencia no proporciona esta información 
+
+
+Los valores de intensidad sísmica reportados por los mapas regionales de aceleraciones de la norma Brasileira
+NBRXXXX, reportan intensidades sísmicas en suelo duro, para probabilidades anuales de excedencia de 1:475 años
+
+La normativa internacional....
+
+Luego, las intensidades sísmicas de diseño para el proyecto requieren probabilidades anuales de excedencia mayores a las empleadas en catálogos de diseño sísmico civil (1:475) 
+
+ 
+
+
 
 ## Normativa
 
