@@ -3,8 +3,6 @@
 REBUILD <- (yaml::yaml.load_file("_variables.yml"))$REBUILD |> as.logical()
 source("R/setup.R")
 if(REBUILD){
-  # source("R/gmdp.R",chdir = FALSE)
-  # source("R/global.R")
   source("R/buildTables.R",chdir = FALSE)
 } else {
   load("data/tables.RData")
@@ -15,15 +13,15 @@ if(REBUILD){
 # EN {-}
 ## Seismic background 
 
-{{< include _EN.qmd >}}
+{{< include md/_EN.qmd >}}
 # PT {-}
 ## Antecedentes sísmicos
 
-{{< include _PT.qmd >}}
+{{< include md/_PT.qmd >}}
 # ES {-}
 ## Antecedentes Sismicos
 
-{{< include _ES.qmd >}}
+{{< include md/_ES.qmd >}}
 
 :::
 
