@@ -10,17 +10,16 @@ execute:
 editor: 
   mode: source
 book:
-  title: "No Title"
-  subtitle: "Barragem de Rejeitos de Jacobina"
+  title: "Revisão dos antecedentes sísmicos do Projeto Jacobina"
+  subtitle: "Inspeção de Segurança de Barragens de Rejeitos B1 e B2 de Jacobina"
   author: 
     - Alejandro Verri Kozlowski
     - SRK Consulting (Argentina)
-  status: "Draft"
-  date: "1/MAR/2023"
+  status: "Final"
+  date: "20/Marzo/2023"
   chapters:
     - index.qmd
-    - references.qmd
-  downloads: pdf
+  downloads: docx
   navbar:
     search: true
 
@@ -47,12 +46,12 @@ format:
     echo: false
     css: css/styles.css
     theme: materia #default,cerulean,cosmo,cyborg,darkly,flatly,journal,litera,lumen,lux,materia,minty,morph,pulse,quartz,sandstone,simplex,sketchy,slate,solar,spacelab,superhero,united,vapor,yeti,zephyr
-  # docx:
-  #   toc: true
-  #   number-sections: false
-  #   highlight-style: github
-  #   reference-doc: docx/reference-doc.docx
-  #   prefer-html: true
+  docx:
+    toc: true
+    number-sections: false
+    highlight-style: github
+    reference-doc: docx/reference-doc.docx
+    prefer-html: true
 
 #https://github.com/quarto-dev/quarto-cli/blob/main/src/resources/language/_language.yml
 

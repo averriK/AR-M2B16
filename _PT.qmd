@@ -1,0 +1,48 @@
+### Introdução
+
+O objetivo principal deste capítulo é rever o contexto sísmico do projeto Jacobina e identificar as informações críticas necessárias para realizar uma avaliação da estabilidade sísmica das barragens de rejeitos de Jacobina B1 e B2, de acordo com o estado atual da prática internacional. As avaliações da estabilidade sísmica são parte fundamental dos estudos de segurança de barragens (DSI) que estão sendo conduzidos pela equipe de projeto da SRK.
+
+### Antecedentes {.unnumbered}
+
+Entre os antecedentes relevantes, foi identificado um estudo sismológico detalhado da região Jacobina (REF), desenvolvido durante 2021 pelo Professor Carlos Uchoa após a ocorrência de eventos sísmicos moderados no mês de dezembro de 2020. Estudos de paleo-seismicidade mostraram evidências de terremotos muito importantes ocorrendo em diferentes idades da crosta. Não há registros de sismicidade histórica. Correlacionando mapas de alinhamentos magnéticos com eventos sísmicos mais recentes (com magnitudes inferiores a 3-4), o estudo de base foi capaz de encontrar indicações da possível reativação de um sistema de falhas onde se localiza a Serra de Jacobina. O estudo de linha de base apresentou estimativas dos tempos de recorrência de eventos moderados de magnitude superior a M=5,0 com períodos de retorno de 10.000 anos. Entretanto, como as estimativas foram baseadas na geofísica dos blocos geo-tectônicos e não incluíram sismicidade histórica, o relatório não apresenta estimativas dos parâmetros de recorrência de Gutenberg-Richter, que são necessários em um modelo de risco sísmico para estimar as intensidades sísmicas do local do projeto.
+
+A empresa SENAI/CIMATEC preparou um relatório de monitoramento sismográfico que visava analisar as vibrações em diferentes seções da barragem de rejeitos. O relatório considerou como fontes de vibração aquelas originadas pela explosão em áreas próximas, e aquelas originadas pela operação da própria barragem de rejeitos. O relatório não considerou outras fontes de movimentos sísmicos no solo.
+
+O contexto mais importante relacionado à análise da estabilidade sísmica da barragem é o relatório JMC02-390-C-RL-009 (Projeto Executivo 5ª etapa do Regrowth) datado de março de 2020. Este relatório apresentou uma síntese dos estudos realizados para a engenharia detalhada do 5º estágio de recrescimento da barragem de rejeitos B2 e fornece na seção 4.3 algumas diretrizes sobre as intensidades sísmicas do projeto. O relatório de referência considerou as intensidades sísmicas de projeto dos mapas de aceleração regional da norma brasileira NBR 15421, que relata acelerações de rochas de 0,025 g (0,24 m/s2) com uma probabilidade de 10% de serem excedidas em 50 anos, equivalente a um período de retorno de 1:475 anos. O relatório apresenta valores de aceleração horizontal para outras condições geotécnicas, além de solo sólido, e estima valores de projeto usando a metodologia de uma norma sísmica para edifícios e estruturas. Além disso, o relatório cita valores de outras normas de referência para barragens de terra de 0,05 g e 0,03 g para direções horizontais e verticais.
+
+### Terremotos de projeto
+
+O estado atual da prática de projeto sísmico de represas e represas de rejeitos é baseado em filosofias de projeto sísmico baseadas em desempenho e define terremotos de projeto com base em uma probabilidade anual de superação dependente do grau de conseqüências de uma falha da instalação e do estágio de vida da instalação (construção, operação, fechamento e pós-fechamento).
+
+As metodologias de projeto sísmico baseadas em desempenho geralmente consideram um projeto que opera um terremoto para estágios de cuidados ativos, e um projeto máximo de terremoto para estágios de cuidados passivos.
+
+A abordagem de dois níveis assume que danos (deformações residuais) após um evento sísmico ocorrendo durante os estágios de cuidados ativos permitirão ao operador da mina implementar medidas de reparo e reabilitação (mitigação) para evitar uma falha catastrófica da instalação (por exemplo, perda descontrolada do conteúdo do depósito de rejeitos), o que normalmente não seria possível durante os estágios de cuidados passivos.
+
+Para referência, as tabelas a seguir mostram valores de probabilidades de ultrapassagem anual (períodos de retorno) para diferentes estágios do projeto e diferentes graus de conseqüência, de acordo com a Canadiam Dam Association (CDA) [@CDA2014] e o Global Industry Standard on Tailing Management (GISTM) [@GISTM2020]
+
+```{r include=TRUE}
+#| layout-ncol: 2
+#| column: body-outset-right
+#| tbl-cap: "AEP e Grau de Conseqüências"
+#| tbl-subcap: 
+#|   - "Canadian Dam Association (CDA)"
+#|   - "Global Industry Standard on Tailing Management (GISTM)"
+TBL_AEP_CDA
+TBL_AEP_GISTM
+```
+
+A partir de um estudo de risco sísmico do local, é possível conhecer as curvas de probabilidade de ultrapassagem de aceleração dura do terreno, que permitem obter o acordo de projeto baseado no risco de terremoto para cada etapa da instalação.
+
+### Conclusões
+
+Como parte da revisão dos dados preliminares necessários para as etapas de inspeção de segurança de barragens (DSI), alguns relatórios relevantes foram identificados. O estudo sismológico apresenta uma descrição detalhada da estrutura tectônica regional e uma estimativa da atividade neotectônica dos eventos dos últimos 10.000 anos, baseada na análise geofísica e não relatou parâmetros de produtividade baseados em sismicidade histórica. O relatório DAM (JMC02-390-C-RL-009) apresentou uma estimativa das acelerações horizontais do projeto com base na norma NBR 15421 para edifícios e estruturas, cujos mapas de risco sísmico só relatam intensidades sísmicas com probabilidades de superação de 1:475 anos.
+
+As informações de base disponíveis na data de elaboração deste capítulo não relatam as intensidades sísmicas de projeto (acelerações horizontais) necessárias para a análise da estabilidade sísmica na construção, operação ou fechamento das barragens de rejeitos B1 e B2. De acordo com a norma brasileira ABNT NBR 13028 e as recomendações do CDA [@CDA2014] , os terremotos de projeto são necessários para diferentes probabilidades de excedência anual (períodos de retorno) que são obtidas a partir de uma análise de risco sísmico do local. No momento da redação, nenhum estudo de risco sísmico preparado especificamente para o sítio do projeto foi identificado.
+
+### Recomendações
+
+-   Recomenda-se que um estudo probabilístico de risco sísmico (PSHA) do site Jacobina seja preparado para fornecer curvas de probabilidade de excedência de acelerações horizontais em solo duro. O escopo mínimo de tal estudo deve contemplar a preparação de espectros de perigo uniformes de resposta sísmica para intensidades em rocha ou solo firme, considerando tanto os valores médios quanto os ramos dos quantis 50%, 16%-84%, 10%-90% e 5%-95%.
+
+-   Para a definição das probabilidades de excedência anual (períodos de retorno) de terremotos de projeto, são recomendadas as diretrizes da norma brasileira ABNT 13028 baseadas nas recomendações da Canadian Dam Association (CDA) @CDA2014 ou as recomendações da Global Industry Standard on Tailing Management (GISTM) @GISTM2020.
+
+-   Para a definição do terremoto de projeto para as barragens B1 e B2, recomenda-se a realização de um estudo dinâmico de resposta local que estima a amplificação por local dos efeitos do solo de fundação das barragens B1 e B2, com base nos estudos geotécnicos disponíveis O estudo de risco sísmico deve relatar os espectros uniformes de projeto sísmico de risco para diferentes condições geotécnicas de acordo com a ASCE 7-22 @ASCE722

@@ -1,0 +1,55 @@
+### Introduction
+
+The main purpose of this chapter is to review the seismic background of the project site and identify the critical information needed to perform a seismic stability assessment of the Jacobina site tailings dams B1 and B2, according to the current state of international practice. Seismic stability assessments are a fundamental part of the dam safety studies (DSI) being conducted by the SRK design team.
+
+### Background
+
+A detailed seismological study of the Jacobina region developed during 2021 by Professor Carlos Uchoa following the occurrence of moderate seismic events in December 2020, has been identified. Paleoseismicity studies showed evidence of very important earthquakes occurring at different crustal ages. There are no records of historic seismicity. By correlating maps of magnetic alignments with more recent seismic events (with magnitudes less than 3-4), the baseline study was able to find indications of the possible reactivation of a fault system where the Serra de Jacobina is located. The reference study presented estimates of the recurrence times of moderate events of magnitude greater than M=5.0 with return periods of 10,000 years. However, because the estimates were based on the geophysics of the geo-tectonic blocks, and did not include historical seismicity, the report does not present estimates of the Gutenberg-Richter recurrence parameters, which are required in a seismic hazard model to estimate the seismic intensities of the project site.
+
+SENAI/CIMATEC prepared a seismographic monitoring report with the objective of assessing vibrations in different sections of the tailings dam. The report considered as sources of vibration those originated by blasting in nearby areas, and those originated by the operation of the tailings dam itself. The reference report did not consider other sources of seismic ground motions.
+
+The document JMC02-390-C-RL-009 (Executive Project 5th stage of Regrowth) dated March 2020, presented a synthesis of studies carried out for the detailed engineering of the 5th stage of the B2 tailings dam regrowth and provides in section 4.3 some guidelines on the design seismic intensities. The reference report considered design seismic intensities from the regional acceleration maps of the Brazilian standard NBR 15421, which reports rock accelerations of 0.025 g (0.24 m/s2) with a 10% probability of being exceeded in 50 years, equivalent to a return period of 1:475 years. The report presents horizontal acceleration values for other geotechnical conditions in addition to firm ground, and estimates design values using the methodology of a seismic standard for buildings and structures. In addition, the report cites values from other earth dam reference standards of 0.05 g and 0.03 g for horizontal and vertical directions.
+
+### Design ground-motions
+
+The current state of the practice of seismic design of dams and tailings storage facilities is based on performance-based seismic design philosophies and defines design earthquakes on the basis of an annual probability of exceedance (AEP) [^_en-1] dependent on the degree of consequences of a facility failure and the stage of the life of the facility (construction, operation, closure and post-closure).
+
+[^_en-1]:  $AEP=1/T_R$
+
+Performance-based seismic design methodologies generally consider a design operating earthquake for active care stages, and a maximum design earthquake for passive care stages. The dual-level approach assumes that damage (residual deformations) following a seismic event occurring during the active care stages will allow the mine operator to implement repair and rehabilitation (mitigation) measures to avoid a catastrophic failure of the facility (e.g. uncontrolled loss of tailings deposit contents), which would not normally be possible during the passive (post-closure) care stages. For reference, the following tables show values of annual exceedance probabilities (return periods) for different stages of the project and different degrees of consequence, according to the Canadian Dam Association (CDA) @CDA2014 and the Global Industry Standard on Tailing Management (GISTM) @GISTM2020.
+
+```{r include=TRUE}
+#| layout-ncol: 2
+#| column: body-outset-right
+#| tbl-cap: "Risk-based target AEP according to international standards"
+#| tbl-subcap: 
+#|   - "Canadian Dam Association (CDA)"
+#|   - "Global Industry Standard on Tailing Management (GISTM)"
+TBL_AEP_CDA
+TBL_AEP_GISTM
+```
+
+From a seismic hazard study of the site, it is possible to know the annual probability curves of exceedance of accelerations in hard soil, which allow to obtain the design earthquakes based on risk for each stage of the installation.
+
+### Conclusions
+
+As part of the background review required for the dam safety inspection (DSI) stages, some relevant reports were identified. The seismological study presents a detailed description of the regional tectonic framework and an estimate of neotectonic activity from events over the last 10,000 years based on geophysical assessments and did not report productivity parameters based on historical seismicity. The DAM report (JMC02-390-C-RL-009) presented an estimate of the horizontal accelerations of the project based on the NBR 15421 standard for buildings and structures, whose seismic hazard maps only report seismic intensities with 1:475 year exceedance probabilities.
+
+The information available at the date of writing this chapter does not provide the design ground motions required for assessment of seismic stability in construction, operation or closure of tailings dams B1 and B2. According to the Brazilian standard ABNT NBR 13028, design earthquakes are required for different annual exceedance probabilities (return periods) that are obtained from a seismic hazard analysis of the site. At the time of writing, no seismic hazard studies prepared specifically for the project site were identified.
+
+### Recomendations for further analysis
+
+-   A probabilistic seismic hazard study (PSHA) of the Jacobina site is recommended to provide exceedance probability curves of horizontal accelerations in hard ground. The minimum scopes of such a study should contemplate the development of uniform hazard spectra of seismic response for intensities in rock or firm ground, considering both mean values as well as branches of the fractiles 50%, 16%-84%, 10%-90% and 5%-95%.
+
+-   For the definition of the annual exceedance probabilities (return periods) of the design earthquakes of the Jacobina project site, we recommend the guidelines of the Brazilian standard ABNT 13028 based on the recommendations of the Canadian Dam Association (CDA) @CDA2014 or the recommendations of the Global Industry Standard on Tailing Management (GISTM) @GISTM2020.
+
+-   For the definition of the design earthquakes for dams B1 and B2, it is recommended to perform a dynamic site response study that estimates the amplification by site effects of the foundation soil of dams B1 and B2, based on available geotechnical studies The seismic hazard study should report the seismic design spectra of uniform hazard for different geotechnical conditions according to ASCE 7-22 @ASCE722
+
+### Disclaimer
+
+*The opinions expressed in this online Report have been based on the information supplied to* {{< var SRK >}}*. SRK has exercised all due care in reviewing the supplied information. Whilst SRK has compared key supplied data with expected values, the accuracy of the results and conclusions from the review are entirely reliant on the accuracy and completeness of the supplied data. SRK does not accept responsibility for any errors or omissions in the supplied information and does not accept any consequential liability arising from commercial decisions or actions resulting from them. Opinions presented in this report apply to the site conditions and features as they existed at the time of SRK's investigations, and those reasonably foreseeable. These opinions do not necessarily apply to conditions and features that may arise after the date of this Report, about which SRK had no prior knowledge nor had the opportunity to evaluate.*
+
+### References
+
+::: {#refs}
+:::
