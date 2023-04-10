@@ -10,15 +10,15 @@ if(REBUILD){
 ```
 
 ::: {.panel-tabset}
-# EN {-}
+# English {-}
 ## Seismic background 
 
 {{< include md/_EN.qmd >}}
-# PT {-}
+# Portugués {-}
 ## Antecedentes sísmicos
 
 {{< include md/_PT.qmd >}}
-# ES {-}
+# Español {-}
 ## Antecedentes Sismicos
 
 {{< include md/_ES.qmd >}}

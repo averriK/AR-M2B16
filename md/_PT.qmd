@@ -33,6 +33,14 @@ TBL_AEP_GISTM
 
 A partir de um estudo de risco sísmico do local, é possível conhecer as curvas de probabilidade de ultrapassagem de aceleração dura do terreno, que permitem obter o acordo de projeto baseado no risco de terremoto para cada etapa da instalação.
 
+
+### Resposta dinâmica do terreno
+
+As propriedades geotécnicas, principalmente a rigidez de corte, do material de fundação da barragem podem ter uma forte influência sobre a amplitude das intensidades sísmicas esperadas na base das TSFs. As curvas de probabilidade de ultrapassagem de aceleração de um modelo de risco sísmico são geralmente definidas em rochas ou solos duros, com terreno de classe A, B, BC. A existência de estratos de material menos rígidos entre o leito rochoso e o nível da fundação determina um sinal sísmico com amplitudes (acelerações horizontais) que podem ser maiores do que as obtidas em solo duro. 
+
+Para terreno de classe C, CD e D, a estimativa dos efeitos de amplificação do local pode ser aproximada por modelos empíricos baseados na velocidade média de onda de corte Vs30 @ASCE722. Para materiais de fundação com terreno de classe DE e E, estimativas empíricas baseadas em um fator de amplificação permitem parâmetros preliminares de projeto, mas será aconselhável validar estes fatores em um estudo de resposta dinâmica do terreno, que pode capturar corretamente a amplificação esperada do terreno.
+
+
 ### Conclusões
 
 Como parte da revisão dos dados preliminares necessários para as etapas de inspeção de segurança de barragens (DSI), alguns relatórios relevantes foram identificados. O estudo sismológico apresenta uma descrição detalhada da estrutura tectônica regional e uma estimativa da atividade neotectônica dos eventos dos últimos 10.000 anos, baseada na análise geofísica e não relatou parâmetros de produtividade baseados em sismicidade histórica. O relatório DAM (JMC02-390-C-RL-009) apresentou uma estimativa das acelerações horizontais do projeto com base na norma NBR 15421 para edifícios e estruturas, cujos mapas de risco sísmico só relatam intensidades sísmicas com probabilidades de superação de 1:475 anos.
@@ -43,6 +51,12 @@ As informações de base disponíveis na data de elaboração deste capítulo n�
 
 -   Recomenda-se que um estudo probabilístico de risco sísmico (PSHA) do site Jacobina seja preparado para fornecer curvas de probabilidade de excedência de acelerações horizontais em solo duro. O escopo mínimo de tal estudo deve contemplar a preparação de espectros de perigo uniformes de resposta sísmica para intensidades em rocha ou solo firme, considerando tanto os valores médios quanto os ramos dos quantis 50%, 16%-84%, 10%-90% e 5%-95%.
 
--   Para a definição das probabilidades de excedência anual (períodos de retorno) de terremotos de projeto, são recomendadas as diretrizes da norma brasileira ABNT-NBR 13028 @NBR13028 baseadas nas recomendações da Canadian Dam Association (CDA) @CDA2014 ou as recomendações da Global Industry Standard on Tailing Management (GISTM) @GISTM2020.
+-   Para a definição das probabilidades de excedência anual (períodos de retorno) de terremotos de projeto, são recomendadas as diretrizes da norma brasileira ABNT-NBR 13028 @NBR13028 baseadas nas recomendações da Canadian Dam Association (CDA) @CDA2014
 
--   Para a definição do terremoto de projeto para as barragens B1 e B2, recomenda-se a realização de um estudo dinâmico de resposta local que estima a amplificação por local dos efeitos do solo de fundação das barragens B1 e B2, com base nos estudos geotécnicos disponíveis O estudo de risco sísmico deve relatar os espectros uniformes de projeto sísmico de risco para diferentes condições geotécnicas de acordo com a ASCE 7-22 @ASCE722
+-   O estudo de risco sísmico deve relatar os espectros uniformes de projeto sísmico de risco para diferentes condições geotécnicas de acordo com a ASCE 7-22 @ASCE722. Para a definição do terremoto de projeto para as barragens B1 e B2, recomenda-se a realização de um estudo dinâmico de resposta local que estima a amplificação por local dos efeitos do solo de fundação com base nos estudos geotécnicos disponíveis. 
+
+### Referências  {.unnumbered}
+
+::: {#refs}
+:::
+
